@@ -1,0 +1,344 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header-logo img {
+  width: 280px;
+  height: 56px;
+}
+.header-logo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+a {
+  text-decoration: none;
+}
+.nav-item a {
+  color: #333;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  letter-spacing: 1.8px;
+  margin: 0;
+}
+.nav-list {
+  padding: 40px 0;
+}
+.concept {
+  padding: 50px 0;
+  align-items: center;
+}
+.concept-left {
+  width: 50%;
+}
+
+.concept-right {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+.concept-text {
+  color: #333;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+.concept-heading {
+  color: #24a8bf;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px; /* 134.375% */
+  letter-spacing: 3.2px;
+  margin-top: 20px;
+}
+
+.concept-discription {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px; /* 181.25% */
+  letter-spacing: 1.6px;
+  margin-top: 30px;
+}
+.inner {
+  max-width: 1110px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+
+}
+
+.blog {
+  padding: 50px;
+
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.blog-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blog-title-en {
+  color: #24a8bf;
+  font-family: Arial;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  letter-spacing: 2.56px;
+}
+.blog-title-jp {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px; /* 100% */
+  letter-spacing: 0.39px;
+  margin-top: 8px;
+}
+.container-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+h3 {
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.date {
+  color: #333;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 108.333% */
+  margin-top: 6px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.blog-button {
+  display: inline-block;
+  padding: 18px;
+  padding-left: 72px;
+  padding-right: 73px;
+  font-size: 20px;
+  color: #24a8bf;
+  text-decoration: none;
+  border: 2px solid #24a8bf;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+
+  display: block;
+  padding: 18px 0;
+
+  font-size: 15px;
+  color: #24a8bf;
+
+  border: 1px solid #24a8bf;
+  border-radius: 3px;
+  font-weight: bold;
+  position: relative;
+  width: 220px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto;
+  transition: opacity 0.3s;
+}
+
+.blog-button:hover {
+  background-color: #24a8bf;
+  color: white;
+}
+.blog-button::after {
+  content: "";
+  background-image: url(../images/icon_arrow-right.jpg);
+  width: 5px;
+  height: 9px;
+  flex-shrink: 0;
+  display: block;
+  background-size: 5px 9px;
+  position: absolute;
+  top: 50%;
+  right: 25.5px;
+  transform: translateY(-50%);
+}
+.footer-container {
+  background-color: #000;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.footer-logo {
+  margin-bottom: 50px;
+  width: 180px;
+}
+.copy {
+  color: #8b8b8b;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.8px; /* 115% */
+  letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-logo img {
+    width: 160px;
+    height: 32px;
+  }
+
+  .header-logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .nav-item a {
+    color: #333;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: 1.6px;
+  }
+  .nav-list {
+padding: 30px 0;
+  }
+  .inner {
+    flex-direction: column;
+  }
+  .concept-text {
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .blog-section {
+    text-align: center;
+    margin-top: 90px;
+  }
+  .blog-title-en {
+    color: #24a8bf;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 110% */
+    letter-spacing: 0.9px;
+  }
+  .blog-title-jp {
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+  }
+  .container-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: start;
+    justify-items: stretch;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 28px;
+  }
+
+  .inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .concept-left {
+    width: 100%;
+  }
+
+  .concept-right {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .concept-text {
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 120% */
+    letter-spacing: 1.5px;
+  }
+  .concept-heading {
+    color: #24a8bf;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px; /* 150% */
+    letter-spacing: 2.6px;
+  }
+  .concept-discription {
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 180% */
+    letter-spacing: 1.5px;
+  }
+  .footer-container {
+    background-color: #000;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+  }
+  .footer-logo {
+    margin-bottom: 50px;
+    width: 100px;
+  }
+  .copy {
+    color: #8b8b8b;
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 170% */
+    letter-spacing: 0.5px;
+  }
+}
